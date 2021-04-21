@@ -21,14 +21,20 @@ function criarBG() {
 
 function criarCobrinha(){
     for(i = 0; i < snake.length; i++){
-        context.fillStyle = "white";
+        context.fillStyle = "blue";
+        context.strokeStyle = "white";
+        context.lineWidth = 2;
         context.fillRect(snake[i].x, snake[i].y, box, box);
+        context.strokeRect(snake[i].x, snake[i].y, box, box);
     }
 }
 
 function drawFood(){
-    context.fillStyle = "green";
+    context.fillStyle = "gray";
+    context.strokeStyle = "white";
+    context.lineWidth = 2;
     context.fillRect(food.x, food.y, box, box);
+    context.strokeRect(food.x, food.y, box, box);
 }
 
 document.addEventListener('keydown', update);
@@ -51,7 +57,7 @@ function iniciarJogo(){
     for(i = 1; i < snake.length; i++){
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
             clearInterval(jogo);
-            alert('Game Over :(')
+            alert('Game Over! Aperte F5 para recomeçar.')
         }
     }
 
@@ -83,4 +89,4 @@ function iniciarJogo(){
     snake.unshift(newHead);
 }
 
-let jogo = setInterval(iniciarJogo, 140);
+let jogo = setInterval(iniciarJogo, 130);
