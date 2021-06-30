@@ -29,9 +29,11 @@ function criarCobrinha(){
     }
 }
 
+
+
 function drawFood(){
     context.fillStyle = "gray";
-    context.strokeStyle = "white";
+    context.strokeStyle = "white ";
     context.lineWidth = 2;
     context.fillRect(food.x, food.y, box, box);
     context.strokeRect(food.x, food.y, box, box);
@@ -57,7 +59,7 @@ function iniciarJogo(){
     for(i = 1; i < snake.length; i++){
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
             clearInterval(jogo);
-            alert('Game Over! Aperte F5 para recomeçar.')
+            window.alert('Game Over! Aperte F5 para recomeçar.')
         }
     }
 
@@ -89,4 +91,4 @@ function iniciarJogo(){
     snake.unshift(newHead);
 }
 
-let jogo = setInterval(iniciarJogo, 130);
+let jogo = setInterval(iniciarJogo, 170);

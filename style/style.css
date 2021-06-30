@@ -22,8 +22,8 @@ h1{
     margin-bottom: 1rem;
     text-shadow: 2px 2px 2px rgb(0, 0, 255), 0 0 1.1em blue, 0 0 0.2em rgba(0, 0, 255, 0.848);
     color: white;
-    font-size: 30px;
-    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    font-family: 'Original Surfer', cursive;
 }
 
 canvas{
@@ -34,26 +34,27 @@ canvas{
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
     h1{
-        font-size: 25px;
+        font-size: 3rem;
     }
 
     canvas{
-        width: 80vh;
-        height: 80vh;
+        width: 85vw;
+        height: 70vh;
         
     }
 }
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:500px) {
     
     h1{
-        font-size: 18px;
+        font-size: 2rem;
     }
 
     canvas{
-        width: 55vh;
-        height: 55vh;
+        height: 45vh;
         
     }
+
 }
