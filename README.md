@@ -2,9 +2,10 @@
 
 # Snake_Game
 
+Projeto desenvolvido durante o bootcamp da DIO (Digital Innovation One). 
+O projeto consiste em um  "jogo da cobrinha".
 
 
-![APM](https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565)
 
 ## Feito com:
 
@@ -17,27 +18,11 @@
   
 
 ## :tada:  Link:
+https://snake-game-orcin-rho.vercel.app/
 
-
-
-## Estrutura do diretório:
-
-
-
-## Especificações:
-
-- Fontes utilizadas:
-
-- Cores utilizadas: 
-
-  
 
 ## Screenshot: 
 
-![]()
-
-![]()
+![Snake](https://user-images.githubusercontent.com/80595156/140186026-66f9795d-5718-4d90-af28-830d44f093bd.png)
 
 
-
-​      
